@@ -1,0 +1,16 @@
+
+MAS cnp {
+
+    infrastructure: Centralised
+
+    agents:
+        c;     // the CNP initiator
+          //[mindinspector="gui(cycle,html,history)"];    // you can store the minds on files with [mindinspector="file(cycle,xml,log)"]
+
+        p #3; // the participants (3) that offer a service
+
+        pr;    // a participant that always refuses
+          //[mindinspector="gui(cycle,html,history)"];
+
+        pn;   // a participant that does not answer
+}

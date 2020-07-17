@@ -1,0 +1,10 @@
+
+MAS cnp {
+
+    infrastructure: Centralised
+
+    agents:
+        c;    
+        p #3; 
+
+}
